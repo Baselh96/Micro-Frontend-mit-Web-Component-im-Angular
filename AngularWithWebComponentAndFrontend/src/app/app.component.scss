@@ -1,0 +1,32 @@
+header {
+    background-color:cornflowerblue;
+    height: 40px;
+    width: 100%;
+    text-align: var(--textAlign);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    a {
+        text-decoration: none;
+    }
+}
+
+main {
+    background-color: aliceblue;
+    max-width: 90%;
+    margin: var(--divMargin);
+    height: 500px;
+    text-align: center;
+}
+
+h1{
+    color: var(--primaryColor);
+}
+

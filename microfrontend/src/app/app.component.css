@@ -1,0 +1,11 @@
+h1 {
+    color: var(--primaryColor);
+}
+
+div {
+    width: var(--divWidth);
+    height: var(--divHeight);
+    margin: var(--divMargin);
+    text-align: var(--textAlign);
+    background-color:blue;
+}
